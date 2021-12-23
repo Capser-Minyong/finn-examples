@@ -1,0 +1,1219 @@
+commit b04ff19747f1b7c14a246addf3415e84f05e09fd
+Merge: 9fb0f74 8bef7b2
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 5 17:50:58 2021 +0100
+
+    Merge pull request #25 from Xilinx/dev
+    
+    finn-examples 0.0.4
+
+commit 8bef7b25a5ddb720d0754ec9c62eb2b449459996
+Merge: a3ffcec 9fb0f74
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 5 16:33:59 2021 +0100
+
+    Merge branch 'main' into dev
+
+commit a3ffcecb4ea886a1226fc6a8475f98cd13a8e688
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 5 15:55:34 2021 +0100
+
+    bump version number+finn-base+finn ver for builds
+
+commit 7d2f406c6fd5f63c5d6604c8afa10e00afbce289
+Merge: c49bb5a 40c69de
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 5 15:10:49 2021 +0100
+
+    Merge pull request #24 from mmrahorovic/rn50/bug_ext_weights
+    
+    Generate HLS files after (potentially) resetting nodes
+
+commit 40c69de99d85e8aa0c44f893a3646b341fd4b0d8
+Author: Mirza Mrahorovic <mirzam@xir-blade-pxe-5.xilinx.com>
+Date:   Fri Nov 5 12:34:17 2021 +0000
+
+    Generate HLS files after (potentially) resetting nodes
+
+commit c49bb5a0fbe71cf3bbd89d2de3bbcd48807b0212
+Merge: 1bcee80 62e34a3
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 23:00:32 2021 +0100
+
+    Merge pull request #23 from Xilinx/feature/kws-finn
+    
+    Extended KWS notebook and build for network with py_speech pre-processing
+
+commit 62e34a38458f50c5ac24a7ddfdfb2813c7a9c6bf
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 22:59:40 2021 +0100
+
+    minor fixes and additions to KWS notebook
+
+commit 4b4124c768ea27454cd6d02509fe750aa84bb1d2
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 21:32:40 2021 +0000
+
+    Fixed a bug in the quantization and added support for playing the sample files.
+
+commit 1bcee8066909000f51fc662bfb83a921d2b56cc4
+Merge: 586da17 54275a4
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 20:50:09 2021 +0100
+
+    Merge pull request #22 from mmrahorovic/bugfix_rn50
+    
+    Bug fix ResNet-50
+
+commit 9fb0f74a1c6363c64a1cff87e75fd76bef7cacb1
+Merge: 991358d 2ace913
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 18:55:00 2021 +0100
+
+    Merge pull request #18 from rpitonak/mobilenetv1-docs-fix
+    
+    Fix broken links in README.md
+
+commit 586da17abeac7194e61281b86c65c09cfe74a2d3
+Merge: b5815a8 116220c
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 18:54:20 2021 +0100
+
+    Merge pull request #16 from fpjentzsch/feature/radioml_example
+    
+    RadioML example
+
+commit 116220c803eb4acd5a33f5fc1fb719ce81319115
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 18:52:50 2021 +0100
+
+    minor fixes to notebooks
+
+commit c1cffbfc0f88b1a021938c07dc701f3d5dcb66dc
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 15:55:32 2021 +0000
+
+    Removed unused dataflow parent file.
+
+commit c85b8b40108d35dd77189feb3cda82e97c19fc57
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 15:54:51 2021 +0000
+
+    Updated KWS notebook to classify .wav files.
+
+commit 30c8e34f77c95db9c30146b7ab95cad4e466c6ea
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 14:59:09 2021 +0000
+
+    Added KWS dataflow parent and renamed kws preprocessed data.
+
+commit 1cedb5641920eb72e37b3eb9911b14721b66d6fc
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 14:25:35 2021 +0000
+
+    Removed old validation data file.
+
+commit 40e625bcb819e2d620c53d8f884549eef895f483
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 14:42:16 2021 +0100
+
+    update FINN commit hash for building
+
+commit a202c4a850db993269511299fc1a7a7103ea2546
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 14:39:56 2021 +0100
+
+    update ZCU104 bitfiles.zip link
+
+commit fad96b7c5dd6d5c7fa22b13c091a0a437830db3d
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 14:28:42 2021 +0100
+
+    vgg10 -> vgg10-radioml for more clarity
+
+commit ce89ca4894b4277999262381822e678210db1b54
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 14:22:05 2021 +0100
+
+    update download path for RadioML VGG10 ONNX model
+
+commit cd5eda0fb6941b26ff25f02177c47ca6b0573a74
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 4 14:21:30 2021 +0100
+
+    make PyPI publication trigger manually
+
+commit 5646cc5a2cc3cd3ca5f4b2900e3e280d3bf5814b
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 12:14:21 2021 +0000
+
+    Updated KWS build and data download links.
+
+commit 9204fe3f73d089c4fece99bc83bf48e2517f763f
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 12:11:22 2021 +0000
+
+    Updated KWS notebook for python_speech_featrues and added audio_samples.
+
+commit bdbc5c153163d921c8624aabc0901299d0cb840d
+Merge: 82acc9d f20aad0
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 10:45:59 2021 +0000
+
+    Merge remote-tracking branch 'upstream-finn/feature/kws-finn' into feature/kws-finn
+
+commit 82acc9df9596917a52f47715cbcf2712a51fa636
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Thu Nov 4 10:45:18 2021 +0000
+
+    Updated KWS build to use model with python_speech_features pre-processing.
+
+commit 5cbfa83a6ec4e251d46fb77d36338aef7b2bc313
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 15:14:41 2021 +0100
+
+    change nb prefix
+
+commit 8dd17a505596a1973023a3c27a813487d7f89d06
+Merge: b5815a8 21af2e0
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 15:14:13 2021 +0100
+
+    Merge branch 'feature/radioml_example' of https://github.com/fpjentzsch/finn-examples into fpjentzsch-feature/radioml_example
+
+commit 54275a4ce1d6fdc4bf4c249850926b33121086ef
+Author: Mirza Mrahorovic <mirzam@xir-blade-pxe-5.xilinx.com>
+Date:   Wed Nov 3 13:56:15 2021 +0000
+
+    reverted sequence of to_hls transformations
+
+commit b5815a8eb0aeddd71b13af02bddc1e7c4272c579
+Merge: ec82fa0 f20aad0
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 14:51:41 2021 +0100
+
+    Merge pull request #20 from Xilinx/feature/kws-finn
+    
+    KWS build example
+
+commit f20aad07db2fa9d429120ca5c23033911e5ba4f0
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 13:59:38 2021 +0100
+
+    update zipfile link for Pynq-Z1
+
+commit c2b0621aa84249bc01b029ec9e819e91859b9a65
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 13:51:39 2021 +0100
+
+    update kws notebook
+
+commit 651ad2b883f726a95509ea8722c27f59c34e5697
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 13:51:31 2021 +0100
+
+    update README
+
+commit c4ae34021cdb8606a6fc80df2c2c16c8a45b36ee
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 13:28:13 2021 +0100
+
+    start KWS notebook and fix io dict
+
+commit 5bb98c2ef5452c73a262613bf35c5844c1d4088b
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 13:24:59 2021 +0100
+
+    add data folder to setup.py
+
+commit 23ee12fe8f86fdf1eb1368eb1bd96ad511e087d4
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 12:56:35 2021 +0100
+
+    add KWS MLP to models.py
+
+commit 0b417b9ba238c0c3f175d14615cc5d0b9b7bba7b
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 12:56:00 2021 +0100
+
+    add linkfile to download preproc'd KWS validation data
+
+commit 8716473925ea281a5400242c72b2d3969043e7f4
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 12:55:27 2021 +0100
+
+    add KWS MLP to table in README
+
+commit acb951f333b712415721956deaa16e48be094a38
+Merge: b29f094 ec82fa0
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 10:58:35 2021 +0100
+
+    Merge branch 'dev' into feature/kws-finn
+
+commit ec82fa0ff6b308c6ae053fada64747abfbb1b862
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 10:52:09 2021 +0100
+
+    update to latest finn dev
+
+commit eccd2586000e450d236c33911f16e8648fae55a9
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Nov 3 10:51:15 2021 +0100
+
+    remove transformations got moved, rename import
+
+commit b29f0943a6aa1e5f270f180431734ac5c0a101db
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Mon Nov 1 09:11:03 2021 +0000
+
+    Added KWS build files.
+
+commit 65ccad3f282021b8556dde18660d1512861c886d
+Author: Hendrik Borras <hendrikborras@web.de>
+Date:   Mon Nov 1 09:10:28 2021 +0000
+
+    Updated FINN commit.
+
+commit 21af2e02272b537554a43f8353961c7bc399cc49
+Author: Felix Jentzsch <felix.jentzsch@upb.de>
+Date:   Fri Oct 29 15:14:43 2021 +0200
+
+    Update readme, notebook
+
+commit 76158d282bad1b58f18746230d11a270232724be
+Author: Felix Jentzsch <felix.jentzsch@upb.de>
+Date:   Fri Oct 29 14:14:39 2021 +0200
+
+    Update to w4a4_small model at 250MHz
+
+commit 0602dd4d483000a088eeff687c9a2468cd77539c
+Merge: 15a707d 4ec10cb
+Author: Felix Jentzsch <felix.jentzsch@upb.de>
+Date:   Fri Oct 29 14:06:40 2021 +0200
+
+    Merge remote-tracking branch 'upstream/dev' into feature/radioml_example
+
+commit 4ec10cba0741d3073e5ed7481b60b712ba16a876
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Oct 20 09:54:02 2021 +0200
+
+    fixes to RN50 build for latest dev, still broken
+
+commit 6da3618d989b9a62bdbcb390f187e3cfa4abdef4
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Oct 20 09:53:41 2021 +0200
+
+    update to latest FINN dev branch
+
+commit 1f7aed26a92819e8584d5392195f8a9f75ebc0cd
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Oct 20 09:42:43 2021 +0200
+
+    Driver fixes for latest FINN dev
+
+commit 15a707d881f0075f2f8b308dd60a4b9e0c1702ee
+Merge: 1017a59 92e6f4e
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Mon Oct 11 11:16:44 2021 +0200
+
+    Merge branch 'feature/radioml_example' of https://github.com/fpjentzsch/finn-examples into feature/radioml_example
+
+commit 1017a59851fd14b3f18d6cef016bc15743dbf86e
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Mon Oct 11 11:14:19 2021 +0200
+
+    RadioML notebook: support for recent driver changes
+
+commit 2ace9132a4f72c5eab788e4aea4cd5dac4d9af9c
+Author: Rado Pitonak <rado.pitonak@gmail.com>
+Date:   Thu Oct 7 15:57:36 2021 +0200
+
+    fix: Finn logo link in README
+
+commit a2040a09248c8963cea7c4205b546cf19d217f14
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Oct 5 15:35:47 2021 +0200
+
+    call absorb consecutive transposes for MNv1/RN50
+
+commit 2e09305db54304ecd6920fa9edc50794b0978447
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Oct 5 15:35:34 2021 +0200
+
+    update finn to latest dev
+
+commit 3d843e244090ac8ec504270491b711e728c57892
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Oct 5 15:32:40 2021 +0200
+
+    ignore build/release dirs
+
+commit 2feae651ee4d69bdd930696dafd7ee26ea69de75
+Author: Rado Pitonak <rado.pitonak@gmail.com>
+Date:   Tue Aug 31 09:26:01 2021 +0200
+
+    fix: Fix broken links in README.md of mobilenet-v1 example
+
+commit c89e8194af6c3dab17ba0b7ef19e65cb1ed716ad
+Merge: 61febea 207f5ed
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Aug 27 11:56:40 2021 +0200
+
+    Merge pull request #15 from NaelF/binary_cop
+    
+    [Notebook] Added BinCoP face-mask detection example
+
+commit 207f5ed6e48cf1f3420f41d0ee5641820327c715
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Aug 27 11:41:56 2021 +0200
+
+    Add Binary-CoP to README
+
+commit 7898153759c00c170f885cef80f9d2a707923b96
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Aug 27 11:26:48 2021 +0200
+
+    updated Pynq-Z1 link for new zip including binary-cop
+
+commit 870a76e2da80d0e965155d9b7595713910332148
+Merge: 61febea 9816d97
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Aug 27 11:17:56 2021 +0200
+
+    Merge branch 'binary_cop' of https://github.com/NaelF/finn-examples into NaelF-binary_cop
+
+commit 61febea363d89a5bbd56dae35d05d9e4cf62b1ff
+Merge: ce4e090 f9d44ea
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Aug 27 11:10:24 2021 +0200
+
+    Merge pull request #14 from fpjentzsch/dev
+    
+    Fix: Sorting of labeled ImageNet subfolders
+
+commit 92e6f4ec0e43baa53da3bf99c67f3eae291e5345
+Author: Felix Jentzsch <45395194+fpjentzsch@users.noreply.github.com>
+Date:   Fri Jul 30 16:47:35 2021 +0200
+
+    Update README.md
+
+commit 0cd6d3dacceb8b32f5b275c855b38b588083387f
+Author: Felix Jentzsch <45395194+fpjentzsch@users.noreply.github.com>
+Date:   Fri Jul 30 16:44:04 2021 +0200
+
+    RadioML example image for readme
+
+commit 900c80e3a6261e4561a64d0aa24ca81470fac837
+Author: Felix Jentzsch <45395194+fpjentzsch@users.noreply.github.com>
+Date:   Fri Jul 30 16:36:34 2021 +0200
+
+    Update README.md
+
+commit f87587d27c8428eff6cd0ac6bb257cfc1eca8005
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Fri Jul 30 15:36:14 2021 +0200
+
+    Clean up build scripts, notebook
+
+commit ec2c14bab6f1db6bb8dc17b3c355054b20f0f477
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Thu Jul 22 21:24:48 2021 +0200
+
+    Initial ZCU104 testing
+
+commit 9816d979e7a2f9cf8ab04ddef142cdcbb95a5626
+Author: Nael Fasfous <naelfasfous@gmail.com>
+Date:   Wed Jul 14 23:45:03 2021 +0200
+
+    [Notebook] Added BinCoP face-mask detection example
+
+commit f9d44ea30c4885ca8c9143152dd2609dcc9a22c5
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Thu Jul 1 17:49:24 2021 +0200
+
+    Fix: Sorting of labeled ImageNet subfolders
+
+commit 991358db82eedc0f339f59092a04db438dbee41a
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 15 10:21:27 2021 +0100
+
+    bump version number
+
+commit 8e659a476293430b2146fd6771354d98ad6814c7
+Merge: eaebe90 ce4e090
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 15 10:14:30 2021 +0100
+
+    Merge pull request #12 from Xilinx/dev
+    
+    finn-examples v0.0.3b
+
+commit ce4e0904401d463928b7572e9efcde67268283e4
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 15 11:12:51 2021 +0200
+
+    Update README.md
+
+commit 35bef39d2981ac6792ae7cd1ddae3e292d5e1de4
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 15 10:06:46 2021 +0100
+
+    [Bitfile] update link and md5sum for U250
+
+commit 69dc3a8138a813f82c5e7b4a4684fb90e942f6b9
+Merge: 02844af 04ca40d
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 15 10:02:33 2021 +0100
+
+    Merge pull request #8 from quetric/rn50
+    
+    Rn50 example
+
+commit 04ca40dbe6d41ddafa5fd3f65ecd3f2151ad9846
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 15 09:49:07 2021 +0100
+
+    [Notebook] generalize ImageNet notebook to both MNv1 and RN50
+
+commit 1a7920647a9499fc405edbcae3947d5e0c996380
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 15 09:48:45 2021 +0100
+
+    [Driver] updates for ResNet-50
+
+commit 7bd1de95cec535dc7c36721b399a98e83e365959
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 15 09:14:18 2021 +0100
+
+    [Driver] use empty path instead of None for non-existing rt weights
+
+commit a8c4ed0bc574b7e5d4e2f2945d781d65d8b582d5
+Merge: d443257 5c4fb71
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon Jun 14 21:45:42 2021 +0100
+
+    Merge branch 'rn50' of https://github.com/quetric/finn-examples into quetric-rn50
+
+commit 5c4fb71f170260ee7a1e83df75871a1b76f34a19
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Mon Jun 14 17:06:49 2021 +0100
+
+    Updated finn to commit with resource estimate fix
+
+commit d4432579d82ac6c91b38b7b1c312fc58c1553a57
+Merge: bc58065 6caf7b8
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sat Jun 12 13:11:24 2021 +0100
+
+    Merge branch 'rn50' of https://github.com/quetric/finn-examples into quetric-rn50
+
+commit 6caf7b82455a5a3d4f8f7318d06fae6672b94995
+Merge: 546d92c 02844af
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Wed Jun 9 08:34:31 2021 +0100
+
+    Merge remote-tracking branch 'upstream/dev' into rn50
+
+commit 546d92cf4cf625ded4afbd625d6dceae84630c8b
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Wed Jun 9 08:31:28 2021 +0100
+
+    Functional rn50 floorplanning
+
+commit eaebe901a9aeef6a51ba954a0380086b89815e38
+Merge: 68dd349 02844af
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Jun 6 17:21:46 2021 +0100
+
+    Merge pull request #11 from Xilinx/dev
+    
+    finn-examples v0.0.2b
+
+commit 02844afbc86ddcca5b9091b3573863a0e31acf17
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Jun 6 16:52:10 2021 +0100
+
+    Create python-publish.yml
+
+commit c0ac5786c51e6b88dd4da68a71139b0f1bf296d6
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Jun 6 16:11:39 2021 +0100
+
+    [Setup] update finn-base and finn-examples versions
+
+commit 5c090e59203aea60d16e106c5f7e664c8f9a9f03
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Jun 6 16:09:42 2021 +0100
+
+    Update README.md
+
+commit eee128d90c9e0767834068fd9a00f263fdb1632c
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Jun 6 16:08:15 2021 +0100
+
+    Update README.md
+
+commit 716b1ebfbdd0f4b9841096fcf5177aa848da5094
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Jun 4 14:56:27 2021 +0100
+
+    Create AUTHORS.rst
+
+commit c8f36f045871eec1bedc59b2a36c1b09a7c3dfbd
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Jun 1 18:36:15 2021 +0100
+
+    Update finn-dataset_loading version
+
+commit c5e71f3746ef1d9ec8d3baac575f60a0ba2328c4
+Merge: 6e7477d dd2284d
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon May 31 11:44:28 2021 +0100
+
+    Merge pull request #10 from quetric/mobilenet_floorplan
+    
+    Mobilenet SLR floorplanning for increased Fmax
+
+commit dd2284d353936223f3d9e87d3c2796df040ecd5a
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon May 31 11:37:26 2021 +0100
+
+    update zipfile link for U250
+
+commit dd69524a139b267dd2e7bcf10604f3f3af6f9bfc
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon May 31 11:26:45 2021 +0100
+
+    [MNv1] limit build targets, update notebook subfolder loading
+
+commit e1e6c714d53c10df88a007777f7a782b6fc319c6
+Merge: 4883854 6113586
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Wed May 12 15:25:34 2021 +0100
+
+    Merge branch 'mobilenet_floorplan' into rn50
+
+commit 611358665e7590048f67b82f4b406ac94d7c7827
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Fri May 7 12:40:49 2021 +0100
+
+    Update repo url
+
+commit 84eba371253ac0244fc9a8027b8f631f2e61e1cc
+Merge: 513a68b 6e7477d
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Fri May 7 12:32:28 2021 +0100
+
+    Merge remote-tracking branch 'upstream/dev' into mobilenet_floorplan
+
+commit 513a68b1c49f5c6c69bbc484c8c3c53bd8a47a23
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Wed May 5 10:44:42 2021 +0100
+
+    Using latest FINN version with SLR mapping support
+
+commit bc5806576c63fbd1d12e796c4c386920f194b534
+Merge: 6e7477d 4883854
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon May 3 23:45:18 2021 +0100
+
+    Merge branch 'rn50' of https://github.com/quetric/finn-examples into quetric-rn50
+
+commit 6e7477db99c1ed60ba5c76736876d5eab5d011aa
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Fri Apr 30 18:32:49 2021 +0100
+
+    [MNV1] update Zynq driver fclk and bitfile link
+
+commit 1dce4a0ebbdb362c9381bb039cd1bccab5cc9a7f
+Merge: 68dd349 e3b7224
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Apr 30 18:23:52 2021 +0100
+
+    Merge pull request #5 from fpjentzsch/feature/mobilenet_zynq
+    
+    MobileNetV1 on ZCU104/102
+
+commit e3b7224cb2bf28efccc4a4ef592453a99126805f
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Fri Apr 30 18:20:38 2021 +0100
+
+    [Notebook] use matplotlib inline for imagenet nb
+
+commit a84bd9eb2735204aa8132006fa27f5245d5133b6
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Fri Apr 30 18:14:38 2021 +0100
+
+    [Driver] update to latest FINN PYNQ driver
+
+commit 9ca46a250628b9cdcdedb0d6595fec7b07b19de9
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Fri Apr 30 18:13:04 2021 +0100
+
+    [MNV1] increase fclk for Zynq targets to 185 MHz
+
+commit 8a319a3f13417cfb0e9e7895c9b10b8891d2d834
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Apr 29 15:27:41 2021 +0100
+
+    [Deps] update finn
+
+commit 0c68e2e54c0c71bad04bbbc6f83c4cf4f6c44161
+Merge: 2b08abb 8126f21
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Fri Apr 23 19:22:54 2021 +0100
+
+    Merge remote-tracking branch 'felix/feature/mobilenet_zynq' into mobilenet_floorplan
+
+commit 2b08abbbd97f19d5bc9312ee5d72fc03d046274a
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Thu Apr 22 18:11:29 2021 +0100
+
+    Moved driver generation; applied SLR floorplan immediately, avoiding JSON
+
+commit 681236fb7842945f060e7a2bb026fa40335addf7
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Wed Apr 21 18:18:27 2021 +0100
+
+    Using fork of FINN; adding codegen
+
+commit 87071157072f321909cf3bc41ae00bba1a865a9a
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Wed Apr 21 18:10:51 2021 +0100
+
+    WIP on SLR floorplanning
+
+commit 488385490c832b9b41f7096fb3a80071c1b66c89
+Merge: f03f9ab d30f16b
+Author: Lucian Petrica <quetric@gmail.com>
+Date:   Thu Apr 8 13:16:17 2021 +0100
+
+    Merge pull request #1 from Tobi-Alonso/rn50
+    
+    Rn50 example
+
+commit d30f16bbe7b7e58995210125f3ad208fecf13a8c
+Author: tobi <tobias.alonso@estudiante.uam.es>
+Date:   Wed Mar 17 10:33:56 2021 +0100
+
+    Add Instructions to Readme
+
+commit 8126f21fe429f9a3cedb99f026d7059540735d5f
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Thu Mar 11 14:01:20 2021 +0100
+
+    Fix: re-insert extra InferThresholds for ZCU104/102 build
+
+commit 4f7f843af55e8ec29efb0f4944ae8403ddc0eca3
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Tue Mar 9 20:20:54 2021 +0100
+
+    Pre-commit fixes
+
+commit ebaad2b7e77b27ee260a58f2505acae65a1f9f7d
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Tue Mar 9 20:18:43 2021 +0100
+
+    Update build READMEs
+
+commit c15701dc02ed6c3e86bcd5506690f058046481c2
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Tue Mar 9 18:22:57 2021 +0100
+
+    Update finn
+
+commit 826271258aaa35d456e40e1136b28771d41100ce
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Tue Mar 9 18:07:58 2021 +0100
+
+    Cleanup notebook, incorporate runtime-writable weights
+
+commit ad9f1b552ce74ba499c375c6b5539fa03b75fd6b
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Tue Mar 9 18:04:45 2021 +0100
+
+    Add ZCU102/104 support to build script
+
+commit 4377912ee91615689196ccf0b1b72d4e41e72011
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Mon Mar 8 18:59:02 2021 +0100
+
+    Support previous arrangement of val dataset
+
+commit e2f8a6040c2ab3581a1eef215ae0881af037ef67
+Author: Tobi-Alonso <tobi.alonso@gmail.com>
+Date:   Fri Mar 5 15:02:46 2021 +0000
+
+    Enable auto_set_fifos as JSON doesn't set bypass fifo sizes
+
+commit 5ce94faa9b7769430223d189e45ca9f53a576613
+Author: Felix Jentzsch <fepaje@mail.upb.de>
+Date:   Fri Mar 5 15:17:01 2021 +0100
+
+    Initial notebook for Zynq tests
+
+commit 333fa3ca983b99d4b4800ea662b811b95daeca39
+Author: Tobi-Alonso <tobi.alonso@gmail.com>
+Date:   Thu Mar 4 17:20:09 2021 +0000
+
+    Rn50 build tested until step_resnet50_set_fifo_depths with and without DoublePackedConv
+
+commit f03f9ab89bfad15cc12b14023762c69ff5611fea
+Author: Lucian Petrica <lucianp@xilinx.com>
+Date:   Mon Jan 18 13:07:40 2021 +0000
+
+    First commit of rn50
+
+commit 68dd349645d16e7f6930b33660cf744bf2b98820
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Dec 17 22:28:52 2020 +0100
+
+    [Setup] update version string
+
+commit d775033fcd4a8f8dc0fed2a3fad4f0b19ee5152e
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Dec 17 22:26:51 2020 +0100
+
+    [Deps] use pypi version of dep packages
+
+commit 1dcde1aac6ba01f0ec3053727ae4ab0e09fdc0fd
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Dec 17 22:03:46 2020 +0100
+
+    [Setup] set version to v0.0.1
+
+commit ea615b308cdddfbae624710f266832c9179a0645
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Dec 17 21:57:13 2020 +0100
+
+    [Docs] update README
+
+commit 77e0597219ca66b857265cd7ac3f12ecb01028e4
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Dec 17 21:55:51 2020 +0100
+
+    [Deps] update finn
+
+commit bd7777ec7020cd141bb2ade0211d92f558db4bb1
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Dec 17 21:55:44 2020 +0100
+
+    [Docs] update readme for bnn-pynq
+
+commit 713983199e02f81b0a899b305ebcd061c50f77b9
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Dec 16 02:56:40 2020 +0100
+
+    [Docs] update readme
+
+commit 2f5141358929c9cdae635ce2a117fc02b749cb88
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Dec 16 01:58:01 2020 +0100
+
+    [Deps] update finn
+
+commit 1cab2ba7e799cb1d5c5e244e572f2ea7e20f9e3c
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Dec 16 00:59:04 2020 +0100
+
+    [Links] update md5sum for full u250 zipfile
+
+commit aa64ec3f86be22f7a55d2184ad9da15103936623
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Dec 16 00:58:37 2020 +0100
+
+    [Build] more fixes to MobileNet-v1 build
+
+commit 919e7b513addb6f8b49232adfab5c7fb0e0dc67e
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon Dec 14 13:26:46 2020 +0100
+
+    [Build] fixes to MobileNet-v1
+
+commit ffb033d824a03ba42052be86f607026dd59217b0
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon Dec 14 04:11:28 2020 +0100
+
+    Update 2_imagenet_with_mobilenet_v1.ipynb
+
+commit 30f591299b7ac404817fe78474288a5fdb1238e6
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon Dec 14 02:47:15 2020 +0000
+
+    [Notebook] simplify mobilenet notebook
+
+commit 00da6d36fc2802ddd26c6baa12f6bdf691246293
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Oct 22 02:33:00 2020 +0000
+
+    [Notebooks] simplify cifar10 and mnist notebooks, add benchmark call
+
+commit 4396cd1ba20207923df10cb6fd9eefebc86ca9cf
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon Dec 14 01:04:14 2020 +0100
+
+    [Docs] update readme
+
+commit 85701555583b0551e27a733cbba80b4236e6cc4c
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon Dec 14 00:57:45 2020 +0100
+
+    [Links] add md5sums to links
+
+commit 0934c044d9e00907ca65302225f96b6815509770
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Dec 13 23:45:01 2020 +0100
+
+    [Links] update release links
+
+commit 660dc684b401519262d6f8154b87ae15844aadd7
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Dec 13 23:32:23 2020 +0100
+
+    [Deps] update finn
+
+commit 2966580e2fbeaea4a046a936bd5a3d5b41a19230
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Dec 13 23:32:14 2020 +0100
+
+    [BNN-PYNQ] update build script
+
+commit faf6c44114da48878a69582a78341484cc81e56a
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Dec 13 22:22:00 2020 +0100
+
+    [Deps] update finn
+
+commit 7040ee5bc14bd229257e2a01e6e8e7ff0e388d64
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Dec 13 22:21:49 2020 +0100
+
+    [Driver] switch to latest driver from finn compiler
+
+commit f48d2de9e7c6b341f66df99d3148ac74995403de
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sat Dec 12 02:34:03 2020 +0100
+
+    fix BNN-PYNQ model filenames
+
+commit 4320f5af47b8a0e0c2f1e899329b368e79f68fde
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sat Dec 12 02:32:18 2020 +0100
+
+    update README.md
+
+commit f6fa11eefebe5ed5666cdcc3ccd3645e5aa56c61
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Dec 11 13:07:31 2020 +0100
+
+    update finn
+
+commit cb5b6ddf1626901852c027ce59b4549b5048da0c
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Wed Dec 2 23:47:07 2020 +0100
+
+    Update README.md
+
+commit e321585750e93d16a94465f9da005c2ea091e5c7
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 18:18:26 2020 +0100
+
+    update README
+
+commit e6943c65f03fcf721e002f38931a946455495c56
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 18:17:01 2020 +0100
+
+    add language specifiers to code blocks for highlighting
+
+commit 03c70ab867021370bed00a09b5b8d2c49f8e4564
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 18:10:54 2020 +0100
+
+    flesh out top-level README
+
+commit 1d3cd5bf7e437d71ee7f059348eef72c1c901874
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 16:45:12 2020 +0100
+
+    update finn
+
+commit 8cf48c286d9d3552190aac07f7b4943cbbb128ef
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 15:25:47 2020 +0100
+
+    update finn and name for fifo setting step
+
+commit 0c285ee0842d6052506d0b6fa24fa6d03d2cf4b7
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 00:56:50 2020 +0100
+
+    update finn
+
+commit b948979358bea90b226c18e05b432a22cf8478f8
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 00:46:51 2020 +0100
+
+    update finn
+
+commit 0496b82cf605b2361d8e04e8b1d374fb01be7209
+Merge: bf87fb6 f715623
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 00:41:45 2020 +0100
+
+    Merge branch 'main' of https://github.com/maltanar/finn-examples into main
+
+commit bf87fb66d93b0c6ecfb37dd225e93156a99a7ac3
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 00:40:41 2020 +0100
+
+    update finn
+
+commit f715623d6c12864dc27ffcb3b1d3eb3b3c173a8d
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 00:38:29 2020 +0100
+
+    update finn
+
+commit b2a1de8eb445a53c8802a58ac6cd51e72434c18c
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 27 00:05:57 2020 +0100
+
+    fix order of steps for mobilenet build
+
+commit 98b771ec77d97ec004586fcbfa68be701ba7a7bc
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 26 23:59:25 2020 +0100
+
+    add git pull to get-finn script
+
+commit fc239308a3158c8fc5be2ba511e2ad73bf2c20d1
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 26 23:58:38 2020 +0100
+
+    update finn
+
+commit 5a74263fc3669d429de01c18ec6b1e4a6b7fc463
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 26 23:56:11 2020 +0100
+
+    run pre-commit and fix problems
+
+commit b95d87aa2a9787a02cdd4b38297a48d01734cc28
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 26 23:50:30 2020 +0100
+
+    add pre-commit hook config
+
+commit 24fabeb4a57ab705411e7254a0857669e42ac1bb
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 26 23:50:15 2020 +0100
+
+    update .gitignore
+
+commit 997f916c6aeea542f16c7620ec3b66b3dde3d57f
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 26 23:38:02 2020 +0100
+
+    update finn commit, specify custom steps as fxns
+
+commit 3158fe692d2c754b8e4bcf3386277df3f8b6972f
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 26 22:59:42 2020 +0100
+
+    update finn commit needed for rebuilds
+
+commit 6cfa83de41e91910a71f12613553aac054d42a0e
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Thu Nov 26 22:11:17 2020 +0100
+
+    initial commit for MobileNet-v1
+
+commit 00fe6329b6cb4a6449c0b7b660204a70b10b149e
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Wed Nov 25 17:20:30 2020 +0100
+
+    use shell script to get finn at correct v.
+
+commit a1e11daef4103d795abbf7833d04ffe78134ac5d
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Wed Nov 25 17:14:19 2020 +0100
+
+    remove finn as submodule, will use shell script
+    
+    submodule causes issues with pip install
+
+commit 38d04977db590e2b4a10ea7deb3c95d1716178f4
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 24 00:31:50 2020 +0100
+
+    update README
+
+commit 0fbf8d43b9c0be7f563a51427c75db528a404ac1
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 24 00:30:56 2020 +0100
+
+    add script for bnn-pynq onnx model downloads
+
+commit 8440d7a58c0a8e74cd85b0b00f6795831062e501
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 24 00:26:22 2020 +0100
+
+    update .gitignore
+
+commit fd15d220b5bec44cedc08d24cfed5730ed78e6d4
+Merge: 0775fd4 460a32b
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 24 00:21:52 2020 +0100
+
+    Merge branch 'main' of https://github.com/maltanar/finn-examples into main
+
+commit 0775fd441cf9370dd2b9ab0e63e0b4743bc627ec
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 24 00:21:18 2020 +0100
+
+    [FINN] add finn@46653d as submodule
+
+commit b8126152853ffcac1ebd33d5eb38d1a544e2b27f
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 24 00:19:21 2020 +0100
+
+    [BNN-PYNQ] add build instructions + config
+
+commit 460a32b87cf8e6ce921f47887e8eb19d6d6219eb
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Tue Nov 10 01:57:45 2020 +0000
+
+    add mobilenet notebook
+
+commit ee62aa443b8a177de987ef8e6cbd5747697405b1
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 10 01:37:07 2020 +0100
+
+    add mobilenetv1 link and model fxn
+
+commit 9889168c635ff5b5599e4ea026038dd6fdde3c69
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 10 00:39:30 2020 +0100
+
+    add Ultra96 and U250 zips to linkfile
+
+commit 653de8cb724ad53afec7809cd2869057aafd4800
+Merge: e2c6d22 7038d5e
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 10 00:26:13 2020 +0100
+
+    Merge branch 'main' of https://github.com/maltanar/finn-examples into main
+
+commit e2c6d224019b257163bd92c75466e93a3c19f24c
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 10 00:25:48 2020 +0100
+
+    add finn-base to deps
+
+commit 7038d5e3b4e8c23f80b27107e1a1d6136ead89ab
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Mon Nov 9 01:47:19 2020 +0000
+
+    add cifar10 cnv notebook
+
+commit 4897fabce491ad0e8df147533134144c1512e8e9
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Mon Nov 9 02:19:59 2020 +0100
+
+    add _cifar10_cnv_io_shape_dict
+
+commit b51faa251b6d3bc6c36ee71fd8bd46e8066ce82c
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Mon Nov 9 01:32:36 2020 +0100
+
+    switch to zipped archives per device, add more nets
+
+commit f343ae3f5667d92881bd1394214819b9e32b66c6
+Merge: 9167032 aebb9da
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Mon Nov 9 00:24:01 2020 +0100
+
+    Merge pull request #1 from maltanar/feature/unzip_after_dl
+    
+    feature/unzip after dl
+
+commit aebb9da415779299821435c1b9bfac4884d18a0f
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Sun Nov 8 23:22:26 2020 +0000
+
+    add unzip_overlays to setup.py
+
+commit ba1d933c2ea4cf79532bcd04ba649a640e1c5410
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 6 12:19:31 2020 +0000
+
+    add new distutils command for unzipping
+
+commit 9167032b4b081baadfbdd4ae390ede5daf4e2154
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 6 00:50:36 2020 +0000
+
+    fixes to setup.py for dataset_loading
+
+commit 8400b933483aabe50eff9c10408ffc6c9281f996
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Fri Nov 6 01:43:29 2020 +0100
+
+    add dataset_loading dep
+
+commit bfea69d758d98201f084bd857de8d7d9ef73c768
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Fri Nov 6 00:31:58 2020 +0000
+
+    add mnist notebook
+
+commit 2f02622bac45786b493b39892b4da63a26d6d98f
+Merge: abe2c03 3dc6c65
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Thu Nov 5 23:27:34 2020 +0100
+
+    Merge branch 'main' of https://github.com/maltanar/finn-examples into main
+
+commit abe2c03d0a042ecfad58f45cd73b4bf10a4d001e
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Thu Nov 5 17:48:55 2020 +0100
+
+    small driver fixes
+
+commit 3dc6c651742c955d88ca58f9b32063e4344494bf
+Author: Yaman Umuroglu <yamanu@xilinx.com>
+Date:   Thu Nov 5 14:05:02 2020 +0000
+
+    big round of fixes to get first v. working
+
+commit c043242af7a80711000687a19ee80de6f2a2a7ea
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Thu Nov 5 00:32:57 2020 +0100
+
+    restructure
+
+commit 0ad1d328fac0ac2168bdac531c986d0085556676
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 3 22:50:03 2020 +0100
+
+    cut deps even more
+
+commit 967c96fcf7055fb19b8b713a2b176e21ecefa13c
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 3 22:46:34 2020 +0100
+
+    update deps
+
+commit 2cddc18d639bce9c7672e5df3d667ef768888974
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 3 22:26:42 2020 +0100
+
+    update linkfile, use zip
+
+commit a9d12cb0b48e30eb427d3652f6153f0c4c5c0051
+Author: Yaman Umuroglu <maltanar@gmail.com>
+Date:   Tue Nov 3 21:36:03 2020 +0100
+
+    initial commit
